@@ -41,17 +41,20 @@ D-Bus Configuration Manager
 
 Шаги сборки
 
-# Сборка configManager (DBus сервис)
+# Сборка и запуск configManager (DBus сервис)
+```
 cd configManager
 mkdir build && cd build
 cmake ..
 make
 ./configManager
+```
 
-# Сборка confManagerApplication1 (клиент)
+# Сборка и запуск confManagerApplication1 (клиент)
+```
 cd ../../confManagerApplication1
 mkdir build && cd build
 cmake ..
 make
 ./confManagerApplication1
-
+```
