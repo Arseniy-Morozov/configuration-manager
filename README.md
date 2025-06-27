@@ -6,7 +6,7 @@ D-Bus Configuration Manager
 
 В качестве примера клиентского приложения реализовано confManagerApplication1, которое подписывается на сигнал изменения конфигурации и выводит в stdout фразу через заданный интервал.
 Структура проекта
-
+```
  conf_manager_project/
 │
 ├── configManager/
@@ -26,7 +26,7 @@ D-Bus Configuration Manager
 │   ├── CMakeLists.txt
 │
 ├── .clang-format
-
+```
 
 
 
