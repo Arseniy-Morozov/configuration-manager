@@ -14,7 +14,7 @@ D-Bus Configuration Manager
 
 Сборка
 
-Требования:
+Требования(в моем случае):
 
     C++17
     CMake >= 3.25
@@ -28,10 +28,12 @@ cd configManager
 mkdir build && cd build
 cmake ..
 make
+./configManager
 
 # Сборка confManagerApplication1 (клиент)
 cd ../../confManagerApplication1
 mkdir build && cd build
 cmake ..
 make
+./confManagerApplication1
 
