@@ -1,0 +1,3 @@
+/home/time/configuration-manager/applications/confManagerApplication1/build/CMakeFiles/confManagerApplication1.dir
+/home/time/configuration-manager/applications/confManagerApplication1/build/CMakeFiles/edit_cache.dir
+/home/time/configuration-manager/applications/confManagerApplication1/build/CMakeFiles/rebuild_cache.dir

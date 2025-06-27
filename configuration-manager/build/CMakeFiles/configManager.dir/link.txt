@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wall -Wextra -Werror CMakeFiles/configManager.dir/src/main.cpp.o CMakeFiles/configManager.dir/src/ConfigurationManager.cpp.o CMakeFiles/configManager.dir/src/ApplicationObject.cpp.o -o configManager  -lsdbus-c++ 
