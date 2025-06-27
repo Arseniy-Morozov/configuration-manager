@@ -7,10 +7,28 @@ D-Bus Configuration Manager
 В качестве примера клиентского приложения реализовано confManagerApplication1, которое подписывается на сигнал изменения конфигурации и выводит в stdout фразу через заданный интервал.
 Структура проекта
 
-    configManager/ — сервис управления конфигурациями (DBus сервис)
-    confManagerApplication1/ — пример клиентского приложения
-    .clang-format — правила форматирования кода
-    README.md — инструкция
+ conf_manager_project/
+│
+├── configManager/
+│   ├── src/
+│   │   ├── main.cpp
+│   │   ├── ConfigurationManager.cpp
+│   │   ├── ConfigurationManager.hpp
+│   │   ├── ApplicationObject.cpp
+│   │   ├── ApplicationObject.hpp
+│   ├── CMakeLists.txt
+│
+├── confManagerApplication1/
+│   ├── src/
+│   │   ├── main.cpp
+│   │   ├── ConfApp.cpp
+│   │   ├── ConfApp.hpp
+│   ├── CMakeLists.txt
+│
+├── .clang-format
+
+
+
 
 Сборка
 
